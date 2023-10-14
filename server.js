@@ -17,8 +17,8 @@ mongoose.connect(process.env.dburl)
             {
                 throw Error(err)
             }
-            // console.log('listening on port 4000');
-            // console.log('connected to database')
+            console.log(`listening on port ${process.env.PORT}`);
+            console.log('connected to database')
         })  
     })
     .catch(err => {throw Error(err)})
