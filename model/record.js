@@ -2,7 +2,7 @@ const mongoose = require('mongoose')
 
 const schema = mongoose.Schema
 
-const yaleRecord = new schema(
+const yaliRecord = new schema(
     {
         email:
         {
@@ -27,4 +27,4 @@ const yaleRecord = new schema(
     }, { timestamps: true }
 )
 
-module.exports = mongoose.model('yaleRecord', yaleRecord)
+module.exports = mongoose.model('yaliRecord', yaliRecord)
